@@ -174,7 +174,7 @@
 
     var prevIndex = 0;
     $('#fullpage').fullpage({
-        anchors: ['welcome', 'about', 'gallery', 'why', 'more-info', 'contacts'],
+        anchors: ['welcome', 'about', 'tba', 'why', 'services', 'contacts'],
         menu: '#header-nav',
         scrollingSpeed: 800,
         autoScrolling: true,
@@ -189,7 +189,7 @@
             }
             isSlideAnimation = true;
         },
-        afterLoad: function(anchorLink, index) {
+        afterLoad: function(index) {
             slideElem.removeClass('transition');
             $('#sidebar-nav li').eq(prevIndex).removeClass('current');
             $('#sidebar-nav li').eq(index - 1).addClass('current');
