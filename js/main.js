@@ -1,11 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
-    Template Name: New Launch v1.0.0 | Responsive Coming Soon Page HTML
-    Author: MZ
-    Author URI: http://themeforest.net/user/mzworks
-
------------------------------------------------------------------------------------*/
-
 (function($) {
     'use strict';
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
